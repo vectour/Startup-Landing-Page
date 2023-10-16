@@ -117,3 +117,36 @@
     left: 10%;
     top: 70%;
 }
+
+/* PRICING */
+
+.price-divider {
+    width: 70.688rem !important;
+    height: 1px !important;
+    background-color: rgb(150,150,150) !important;
+}
+/*
+.price-pack{
+    width: 230px;
+    height: 650px;
+    border: 1px solid black;
+} */
+
+.price-carousel {
+    display: flex;
+    flex-direction: row;
+}
+
+.price-pack{
+    width: 15rem;
+    height: 40rem;  
+    border: 0.0625rem solid rgb(150,150,150);
+    gap: 0.25rem;
+}
+
+.features-categories{
+    top: 30%;
+}
+
+
+
