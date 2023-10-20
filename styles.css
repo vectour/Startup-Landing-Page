@@ -1,5 +1,6 @@
 *{
     font-family: 'DM Sans', sans-serif;
+    border: none;
 }
 
 :root {
@@ -135,6 +136,10 @@
 .price-carousel {
     display: flex;
     flex-direction: row;
+    gap: 2px;
+    margin: auto;
+    box-shadow: 10px black;
+    border: none;
 }
 
 .price-pack{
@@ -148,5 +153,21 @@
     top: 30%;
 }
 
+.check{
+    margin-bottom: 30px;
+}
 
 
+.price-carousel button{
+    width: 150px;
+    height: 40px;
+    border: 1px solid var(--brand-main);
+    color: var(--brand-main);
+
+}
+
+.price-carousel button:hover{
+    border: none;
+    color: var(--brand-white);
+    background: var(--brand-main);
+}
